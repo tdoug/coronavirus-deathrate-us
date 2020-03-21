@@ -1,1 +1,1 @@
-The source code to the COVID-19 Death Rate Tracker (https://github.com/tdoug/coronavirus-deathrate-us.git)
+The source code to the COVID-19 Death Rate Tracker (http://coronavirus-death-rate.info)
