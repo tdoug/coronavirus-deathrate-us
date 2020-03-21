@@ -20,6 +20,7 @@ body {
 .pct {
   margin: auto;
   font-size: 10vh;
+  font-weight: bold;
 }
 
 .red {

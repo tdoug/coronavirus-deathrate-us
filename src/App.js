@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="container">
       <div className="header">As of this moment, the death rate of confirmed<span className="red">*</span> COVID-19 cases in the United States is:</div>
-      <div className="pct">{(state.deaths / state.cases).toFixed(5) * 100} %</div>
+      <div className="pct">{state.deaths > 1 ? (state.deaths / state.cases).toFixed(4) * 100 + "%": "Loading..."}</div>
       <div className="footer">
         <span className="red">*</span> NOTE: confirmed cases are NOT all actual cases.  <br /><br />Hundreds of thousands or even millions of people have been infected with the virus.  You are -far- more likely to receive a test if you are symptomatic or have a severe case.
       </div>
