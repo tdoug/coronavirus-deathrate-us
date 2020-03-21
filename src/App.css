@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 10%;
+}
+
+.header {
+  margin: auto;
+  font-size: 5vh;
+}
+
+.pct {
+  margin: auto;
+  font-size: 10vh;
+}
+
+.red {
+  color:red;
+}
+
+.footer {
+  font-size: 3vh;
+  margin: auto;
+}
