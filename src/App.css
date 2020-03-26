@@ -23,6 +23,10 @@ body {
   font-weight: bold;
 }
 
+.stats {
+  margin: auto;
+}
+
 .red {
   color:red;
 }
