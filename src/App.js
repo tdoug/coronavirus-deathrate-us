@@ -4,8 +4,8 @@ import './App.css';
 
 function App() {
   let [state, dispatch] = useState({ cases: 100, deaths: 1 });
-  let token = 'Bearer 71700bcc-e75b-3929-a318-4feff99bb38a';
-  let url = 'https://coronavirus-19-api.herokuapp.com/countries/us';
+  let token;
+  let url = 'https://coronavirus-19-api.herokuapp.com/countries/usa';
 
   useEffect(()=>{
     getData();
